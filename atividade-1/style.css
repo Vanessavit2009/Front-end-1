@@ -1,12 +1,51 @@
-body {
+.titulo-principal {
+    margin-bottom: 20px; 
+    color: rgb(23, 23, 194);
+    }
+    
+    .destaque {
+    color: rgb(23, 196, 34);
+    background-color: palevioletred;
+    }
+    
+    #especial{
+    font-style: italic;
+    border-left: 3px solid rgb(115, 3, 22);
+    padding-left: 5px;
+    }
+    
+    .paragrafo-comum {
+    line-height: 5.0;
+    }
+    
+    .bloco-um .titulo-bloco{
+    border-bottom: 2px solid plum;
+    background-color: powderblue;
+    
+    }
+    
+    .bloco-um{
+    background-color: powderblue
+    }
+    
+    .bloco-dois{
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    
+    
+    }
+    
+    .item{
+    margin-bottom: 40px;
+    
+    
+    }
+    
+    .item-destaque{
     background-color: pink;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h1 {
-    background-color: rgb(177, 59, 98);
-}
-.paragrafoESpecial {
-    background-color: brown;
-}
- 
+    }
+    
+    #ultimo-item{
+    color: darkblue;
+    }
+  
